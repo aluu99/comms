@@ -7,5 +7,6 @@ void setup() {
 void loop() {
   digitalWrite(ledPin, HIGH);
   digitalWrite(ledPin, HIGH);
-  digitalWrite(ledPin, HIGH);
+  digitalWrite(ledPin, LOW);
+
 }
