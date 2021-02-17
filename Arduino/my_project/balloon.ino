@@ -61,5 +61,6 @@ void setup()
 
     Serial.println("RFM95 Radio initialized!\n");
 
+    //transmitting
 
 }//void setup
