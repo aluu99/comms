@@ -7,6 +7,11 @@ void setup() {
 void loop() {
   digitalWrite(ledPin, HIGH);
   digitalWrite(ledPin, LOW);
+  printf("helloWorld");
+
   digitalWrite(ledPin, LOW);
+  // HELLO FROM TYLER :
+
+
 
 }
