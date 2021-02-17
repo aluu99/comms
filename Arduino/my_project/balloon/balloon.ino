@@ -1,6 +1,5 @@
 
 // Pins setup for Mega based on recommendations; subject to change
-const int LED = 13;
 const int RFM69_INT = 3;
 const int RFM69_CS = 4;
 const int RFM69_RST = 2;
