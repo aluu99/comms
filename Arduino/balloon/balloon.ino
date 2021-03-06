@@ -30,11 +30,12 @@ void setup()
 
 void loop(){
 
+
   if(millis() - lastSendTime > interval){
 
-    // String sensorData = String(count++);
+    String sensorData = String(count++);
 
-    sendMessage("Hello World");
+    sendMessage(sensorData);
 
     Serial.print("Sending data " + sensorData);
     Serial.print(" from 0x" + String(localAddress,HEX));
